@@ -1,0 +1,103 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card {
+  font-family: "Figtree", sans-serif;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 384px;
+  height: 522px;
+}
+
+.card:hover  {
+  
+  box-shadow:  15px 15px black;
+}
+.card:hover h1{
+    color: hsl(47, 88%, 63%);
+}
+
+@media only screen and (max-width: 380px) {
+ .card{
+    width: 270px;
+    height: auto;
+ }
+ .course-titile {
+    font-size: 23px;
+ }
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  left: 20px;
+
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content {
+  margin-top: 1rem;
+}
+
+.learning {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 5px;
+  width: 82px;
+  height: 24px;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 550;
+    margin: 20px 0;
+}
+
+P{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: hsl(0, 0%, 42%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatar {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 2px solid hsl(47, 88%, 63%); */
+}
+
+.author-name {
+  font-weight: 700;
+}
