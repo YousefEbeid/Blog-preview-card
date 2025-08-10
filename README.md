@@ -2,6 +2,10 @@
 
 ![Design preview for the Blog preview card coding challenge](./preview.jpg)
 
+## Live Demo
+
+[Live Demo](https://yousefebeid.github.io/Blog-preview-card/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
